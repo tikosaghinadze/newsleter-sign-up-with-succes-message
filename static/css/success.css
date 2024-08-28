@@ -19,6 +19,10 @@
   font-weight: 400;
   line-height: 150%;
 }
+.email {
+  font-size: 16px;
+  font-weight: 700;
+}
 .success-btn {
   font-family: "Roboto", sans-serif;
   width: 327px;
