@@ -13,6 +13,97 @@
     <title>newsleter sign-up</title>
   </head>
   <body>
+    <main>
+      <img
+        class="mobile-img"
+        src="./static/assets/images/illustration-sign-up-mobile.svg"
+        alt="illustration-sign-up-mobile"
+      />
+      <img
+        class="desktop-img"
+        src="./static/assets/images/illustration-sign-up-desktop.svg"
+        alt="desktop-img"
+      />
+      <div class="updated-content">
+        <h2 class="contents-header">Stay updated!</h2>
+        <p class="contents-p">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <section class="offers">
+          <div class="list-items">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <h3>Product discovery and building what matters</h3>
+          </div>
+          <div class="list-items">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <h3>Measuring to ensure updates are a success</h3>
+          </div>
+          <div class="list-items">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <h3>And much more!</h3>
+          </div>
+        </section>
+        <form>
+          <div class="label-error">
+            <label>Email address</label>
+            <span class="error-message"></span>
+          </div>
+
+          <input
+            placeholder="email@company.com"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <button class="submit-btn" type="submit">
+            Subscribe to monthly newsletter
+          </button>
+        </form>
+      </div>
+    </main>
     <script src="./static/script.js" defer></script>
   </body>
 </html>
