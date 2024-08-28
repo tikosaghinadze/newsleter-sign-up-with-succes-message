@@ -41,3 +41,25 @@
   background: linear-gradient(204deg, #ff6a3a 0%, #ff527b 100%);
   box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
 }
+/* responsiv */
+@media (min-width: 1440px) {
+  #success-main {
+    width: 504px;
+    height: 520px;
+    border-radius: 36px;
+    background: #fff;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  }
+  .success-info {
+    margin: 24px 40px 16px;
+  }
+  .success-h1 {
+    font-size: 56px;
+  }
+  .success-btn {
+    font-family: "Roboto", sans-serif;
+    width: 376px;
+    height: 56px;
+    margin-bottom: 40px;
+  }
+}
