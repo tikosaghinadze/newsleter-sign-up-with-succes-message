@@ -1,4 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // show useers email
+  const savedEmail = localStorage.getItem("emailInput");
+  if (savedEmail) {
+    const successP = document.querySelector(".email");
+    if (successP) {
+      successP.textContent = savedEmail;
+    }
+  } else {
+    console.log("No email found in local storage");
+  }
+
   function validateEmail(event) {
     event.preventDefault();
     const emaiInput = document.querySelector("input");
