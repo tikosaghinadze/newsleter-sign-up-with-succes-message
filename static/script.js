@@ -32,4 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
       validateEmail(event);
     });
   }
+  // back to the previous page
+  const successBtn = document.querySelector(".success-btn");
+  if (successBtn) {
+    successBtn.addEventListener("click", () => {
+      history.back();
+    });
+  }
 });
